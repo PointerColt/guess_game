@@ -33,7 +33,7 @@ export GEMINI_API_KEY=your_api_key_here
                         cd build
 2.configure project : cmake ..
 3.Build : cmake __build .
-4../Debug/Guessgame.exe
+4.Run : ./Debug/Guessgame.exe
 
 ```
 

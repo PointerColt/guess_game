@@ -39,18 +39,17 @@ export GEMINI_API_KEY=your_api_key_here
 
 
 ```md
-## 🧠 What I Learned
-
+##  What I Learned
 1. Integrating APIs in C++  
 2. Making HTTP requests using cpr  
 3. Parsing JSON with nlohmann-json  
 4. Using CMake for project management  
 5. Using Git and GitHub for version control  
 
-## Notes
-->API rate limits may cause 429 errors
-->Requires active internet connection
-->Make sure dependencies are correctly installed
 
+##  Notes
+- API rate limits may cause 429 errors  
+- Requires active internet connection  
+- Make sure dependencies are correctly installed  
 
 

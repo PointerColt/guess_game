@@ -18,14 +18,14 @@ A C++ console application that uses the Google Gemini 2.5 Flash API to play a ga
 2. Install dependencies via vcpkg :- vcpkg install cpr nlohmann-json
 
 3. Setup API Key -> Do NOT hardcode your API key in the source code Set it as an environment variable:
-
+```md
 //...........................for window................................//   
 Windows (Command Prompt) : set GEMINI_API_KEY=your_api_key_here
 Windows (PowerShell) : $env:GEMINI_API_KEY="your_api_key_here"
 
 //........................for Linux / Mac...............................//
 export GEMINI_API_KEY=your_api_key_here
-
+```
 
 ## Built and Run 
 ```bash

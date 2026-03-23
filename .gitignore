@@ -1,2 +1,8 @@
 .vscode/
 *.exe
+build/
+out/
+bin/
+*.dll
+*.pdb
+*.obj

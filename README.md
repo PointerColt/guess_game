@@ -28,14 +28,12 @@ export GEMINI_API_KEY=your_api_key_here
 
 
 ## Built and Run 
+```bash
 1.Create built folder : mkdir build
                         cd build
 2.configure project : cmake ..
 3.Build : cmake __build .
 4../Debug/Guessgame.exe
-
-
-
 
 
 ```md

@@ -19,11 +19,11 @@ A C++ console application that uses the Google Gemini 2.5 Flash API to play a ga
 
 3. Setup API Key -> Do NOT hardcode your API key in the source code Set it as an environment variable:
 
-//......................for window................................//   
+//...........................for window................................//   
 Windows (Command Prompt) : set GEMINI_API_KEY=your_api_key_here
 Windows (PowerShell) : $env:GEMINI_API_KEY="your_api_key_here"
 
-//.....................for Linux / Mac............................//
+//........................for Linux / Mac...............................//
 export GEMINI_API_KEY=your_api_key_here
 
 
@@ -35,17 +35,19 @@ export GEMINI_API_KEY=your_api_key_here
 3.Build : cmake __build .
 4../Debug/Guessgame.exe
 
+```
 
-```md
 ##  What I Learned
+```md
 1. Integrating APIs in C++  
 2. Making HTTP requests using cpr  
 3. Parsing JSON with nlohmann-json  
 4. Using CMake for project management  
 5. Using Git and GitHub for version control  
 
-
+```
 ##  Notes
+```md
 - API rate limits may cause 429 errors  
 - Requires active internet connection  
 - Make sure dependencies are correctly installed  
